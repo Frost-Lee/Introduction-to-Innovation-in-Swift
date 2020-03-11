@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C84A9FE843FDDF17DC16F2C0E7506C /* Pods-catch_geometryUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E540036F489117196A5D2B42A86913 /* Pods-catch_geometryUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38DF784F4CB28238D90AADF59D35DF6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7380DEFC605F63B5FDDBFEBCC3C0D4D6 /* Pods-catch_geometry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F6532FD2BC3A2181BE9710FD6995E6 /* Pods-catch_geometry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8674977486101B833EEC897B165B327F /* Pods-catch_geometryTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A92ACF0E1818D8E0FB4FD6974A06951 /* Pods-catch_geometryTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C423D69A5551302A340E1134A18D0AA /* Pods-catch_geometry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E6AA97587CE0389B08238E6D250A6 /* Pods-catch_geometry-dummy.m */; };
+		B1EAA5B51608D9E994CDD43387654C5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C5B528CFD244E61113572D8909FAC436 /* Pods-catch_geometryUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 438DA45EEC91B9751069B4A5E0FC70F2 /* Pods-catch_geometryUITests-dummy.m */; };
+		C93885941CFCC0C18E53B91612C210A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D46B8FFCB0CD3E9C6CBA6203A69D1BB3 /* Pods-catch_geometryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BE5C11E828227D08A2C5BF56EFF49E /* Pods-catch_geometryTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F220C9804D2A2FBCD054AFA665ECDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC405AECCF6EA8047813B84FF0779404;
+			remoteInfo = "Pods-catch_geometry";
+		};
+		5116E916412E5603C177BDED72C2585F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC405AECCF6EA8047813B84FF0779404;
+			remoteInfo = "Pods-catch_geometry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017D99B4170D8FE681C861D97737944E /* Pods-catch_geometry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometry.debug.xcconfig"; sourceTree = "<group>"; };
+		02F444226D0180AE38D23C1D94ADA1D5 /* Pods_catch_geometryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_catch_geometryTests.framework; path = "Pods-catch_geometryTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F134F1D90623160AE27AA7D435204 /* Pods-catch_geometryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		093E6AA97587CE0389B08238E6D250A6 /* Pods-catch_geometry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-catch_geometry-dummy.m"; sourceTree = "<group>"; };
+		1B50C90EBFBC0A2D8B3A52AC218E794C /* Pods-catch_geometryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometryTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		21F6532FD2BC3A2181BE9710FD6995E6 /* Pods-catch_geometry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-catch_geometry-umbrella.h"; sourceTree = "<group>"; };
+		2F6D6FB6A63B11D599AB919B55AB68E8 /* Pods_catch_geometryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_catch_geometryUITests.framework; path = "Pods-catch_geometryUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C8B2E5FD40A9ADB0C7FD9069BA99080 /* Pods-catch_geometryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		438DA45EEC91B9751069B4A5E0FC70F2 /* Pods-catch_geometryUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-catch_geometryUITests-dummy.m"; sourceTree = "<group>"; };
+		4689D5D91FB5AE40D8F2627E9FEC4783 /* Pods-catch_geometryUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-catch_geometryUITests.modulemap"; sourceTree = "<group>"; };
+		4A92ACF0E1818D8E0FB4FD6974A06951 /* Pods-catch_geometryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-catch_geometryTests-umbrella.h"; sourceTree = "<group>"; };
+		4BDDCB05158AF017E57BC9A46DD2C443 /* Pods-catch_geometryUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-catch_geometryUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		593333665F0EE14069D2682C0794AA4F /* Pods-catch_geometryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-catch_geometryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60305C3D73A32CB123DA48EBAD1F4E94 /* Pods-catch_geometry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometry-Info.plist"; sourceTree = "<group>"; };
+		6F53B7C06A11A125D0F4D346D72457B8 /* Pods-catch_geometryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometryTests.release.xcconfig"; sourceTree = "<group>"; };
+		723E0494557F8D4265F72516A52ABADD /* Pods-catch_geometryTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-catch_geometryTests.modulemap"; sourceTree = "<group>"; };
+		7547A85594C9615B45FBF7C32C47E6B1 /* Pods-catch_geometry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-catch_geometry-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87F757D9F9A5A4807726CE9F4BB222EC /* Pods-catch_geometryTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometryTests-Info.plist"; sourceTree = "<group>"; };
+		922B05A5E5C0D041D6685B05ED194AC9 /* Pods-catch_geometryUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometryUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31C7235825410ECDD226AE8B2C2AB84 /* Pods-catch_geometryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0F80AC2353B366B6AE3FB63E4A9BCBD /* Pods-catch_geometry-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometry-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCE4F40E03599C8F3503B641EFACC18F /* Pods_catch_geometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_catch_geometry.framework; path = "Pods-catch_geometry.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F1A92A7A0BBEC95D10F13C567F4B8A /* Pods-catch_geometry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-catch_geometry.modulemap"; sourceTree = "<group>"; };
+		E0E540036F489117196A5D2B42A86913 /* Pods-catch_geometryUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-catch_geometryUITests-umbrella.h"; sourceTree = "<group>"; };
+		EB07DC922566C79ACD28453FC5674B9E /* Pods-catch_geometryUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometryUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1BE5C11E828227D08A2C5BF56EFF49E /* Pods-catch_geometryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-catch_geometryTests-dummy.m"; sourceTree = "<group>"; };
+		F4E023C66D98E2FB950007D6AC2A32C2 /* Pods-catch_geometry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometry.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A7DA94E7069222972F8470926BBD25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EAA5B51608D9E994CDD43387654C5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D53E30671BBDEB8D7671E11266B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93885941CFCC0C18E53B91612C210A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F428F530EC9EDAA128A29C692B30AB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DF784F4CB28238D90AADF59D35DF6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED98576D1E48B846CB7052E5CF5E0B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3588CF2349B9850CD9BF828EFF89206 /* Pods-catch_geometry */,
+				DCF985FEE2502C0D2023B5D190E7CAD6 /* Pods-catch_geometryTests */,
+				7C2ED19F1C9383929F7AA084DEDBE41B /* Pods-catch_geometryUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EAEF1A6B2815DE2495109EAC9B068FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE4F40E03599C8F3503B641EFACC18F /* Pods_catch_geometry.framework */,
+				02F444226D0180AE38D23C1D94ADA1D5 /* Pods_catch_geometryTests.framework */,
+				2F6D6FB6A63B11D599AB919B55AB68E8 /* Pods_catch_geometryUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C2ED19F1C9383929F7AA084DEDBE41B /* Pods-catch_geometryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4689D5D91FB5AE40D8F2627E9FEC4783 /* Pods-catch_geometryUITests.modulemap */,
+				4BDDCB05158AF017E57BC9A46DD2C443 /* Pods-catch_geometryUITests-acknowledgements.markdown */,
+				EB07DC922566C79ACD28453FC5674B9E /* Pods-catch_geometryUITests-acknowledgements.plist */,
+				438DA45EEC91B9751069B4A5E0FC70F2 /* Pods-catch_geometryUITests-dummy.m */,
+				922B05A5E5C0D041D6685B05ED194AC9 /* Pods-catch_geometryUITests-Info.plist */,
+				E0E540036F489117196A5D2B42A86913 /* Pods-catch_geometryUITests-umbrella.h */,
+				049F134F1D90623160AE27AA7D435204 /* Pods-catch_geometryUITests.debug.xcconfig */,
+				A31C7235825410ECDD226AE8B2C2AB84 /* Pods-catch_geometryUITests.release.xcconfig */,
+			);
+			name = "Pods-catch_geometryUITests";
+			path = "Target Support Files/Pods-catch_geometryUITests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3EAEF1A6B2815DE2495109EAC9B068FB /* Products */,
+				0ED98576D1E48B846CB7052E5CF5E0B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCF985FEE2502C0D2023B5D190E7CAD6 /* Pods-catch_geometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				723E0494557F8D4265F72516A52ABADD /* Pods-catch_geometryTests.modulemap */,
+				593333665F0EE14069D2682C0794AA4F /* Pods-catch_geometryTests-acknowledgements.markdown */,
+				1B50C90EBFBC0A2D8B3A52AC218E794C /* Pods-catch_geometryTests-acknowledgements.plist */,
+				F1BE5C11E828227D08A2C5BF56EFF49E /* Pods-catch_geometryTests-dummy.m */,
+				87F757D9F9A5A4807726CE9F4BB222EC /* Pods-catch_geometryTests-Info.plist */,
+				4A92ACF0E1818D8E0FB4FD6974A06951 /* Pods-catch_geometryTests-umbrella.h */,
+				3C8B2E5FD40A9ADB0C7FD9069BA99080 /* Pods-catch_geometryTests.debug.xcconfig */,
+				6F53B7C06A11A125D0F4D346D72457B8 /* Pods-catch_geometryTests.release.xcconfig */,
+			);
+			name = "Pods-catch_geometryTests";
+			path = "Target Support Files/Pods-catch_geometryTests";
+			sourceTree = "<group>";
+		};
+		E3588CF2349B9850CD9BF828EFF89206 /* Pods-catch_geometry */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1A92A7A0BBEC95D10F13C567F4B8A /* Pods-catch_geometry.modulemap */,
+				7547A85594C9615B45FBF7C32C47E6B1 /* Pods-catch_geometry-acknowledgements.markdown */,
+				C0F80AC2353B366B6AE3FB63E4A9BCBD /* Pods-catch_geometry-acknowledgements.plist */,
+				093E6AA97587CE0389B08238E6D250A6 /* Pods-catch_geometry-dummy.m */,
+				60305C3D73A32CB123DA48EBAD1F4E94 /* Pods-catch_geometry-Info.plist */,
+				21F6532FD2BC3A2181BE9710FD6995E6 /* Pods-catch_geometry-umbrella.h */,
+				017D99B4170D8FE681C861D97737944E /* Pods-catch_geometry.debug.xcconfig */,
+				F4E023C66D98E2FB950007D6AC2A32C2 /* Pods-catch_geometry.release.xcconfig */,
+			);
+			name = "Pods-catch_geometry";
+			path = "Target Support Files/Pods-catch_geometry";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01039BBCFECBE44C32E54081A76B7F6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C84A9FE843FDDF17DC16F2C0E7506C /* Pods-catch_geometryUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AE791D74AA7840348E6FE1C083199C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7380DEFC605F63B5FDDBFEBCC3C0D4D6 /* Pods-catch_geometry-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27F20E6158D4FE89935105F7503CC61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8674977486101B833EEC897B165B327F /* Pods-catch_geometryTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		858BA2B0B52DAB2B233FEAD7FF3FA6F7 /* Pods-catch_geometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B52C414E2D68B084B81F84C6B5024EE8 /* Build configuration list for PBXNativeTarget "Pods-catch_geometryTests" */;
+			buildPhases = (
+				A27F20E6158D4FE89935105F7503CC61 /* Headers */,
+				748277EFC200FE1FEC5FFB254FAA2DC3 /* Sources */,
+				D59D53E30671BBDEB8D7671E11266B61 /* Frameworks */,
+				BAC024925318B566D776B8FF0B62E3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5428930FD469E06B7EF274FCDC6136A /* PBXTargetDependency */,
+			);
+			name = "Pods-catch_geometryTests";
+			productName = "Pods-catch_geometryTests";
+			productReference = 02F444226D0180AE38D23C1D94ADA1D5 /* Pods_catch_geometryTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FCC6FBDB99041F469486948AEDACCA5 /* Pods-catch_geometryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6733C394AECD9E3F651F17E2E1FB3B /* Build configuration list for PBXNativeTarget "Pods-catch_geometryUITests" */;
+			buildPhases = (
+				01039BBCFECBE44C32E54081A76B7F6C /* Headers */,
+				9472B9DA9AEA21E4766A4195CF1570B0 /* Sources */,
+				5A7DA94E7069222972F8470926BBD25A /* Frameworks */,
+				67B33B6DA43EBCD02B2988F89016F896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C25380089B02D91AC2F9E649E3F18D /* PBXTargetDependency */,
+			);
+			name = "Pods-catch_geometryUITests";
+			productName = "Pods-catch_geometryUITests";
+			productReference = 2F6D6FB6A63B11D599AB919B55AB68E8 /* Pods_catch_geometryUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC405AECCF6EA8047813B84FF0779404 /* Pods-catch_geometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0001ACC8810FA998F55F69107A613ADF /* Build configuration list for PBXNativeTarget "Pods-catch_geometry" */;
+			buildPhases = (
+				75AE791D74AA7840348E6FE1C083199C /* Headers */,
+				A4545C12195A11C7C24D2D3B20F5292C /* Sources */,
+				F428F530EC9EDAA128A29C692B30AB3D /* Frameworks */,
+				BEB8617BDA261479587077C43B41B841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-catch_geometry";
+			productName = "Pods-catch_geometry";
+			productReference = CCE4F40E03599C8F3503B641EFACC18F /* Pods_catch_geometry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3EAEF1A6B2815DE2495109EAC9B068FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC405AECCF6EA8047813B84FF0779404 /* Pods-catch_geometry */,
+				858BA2B0B52DAB2B233FEAD7FF3FA6F7 /* Pods-catch_geometryTests */,
+				9FCC6FBDB99041F469486948AEDACCA5 /* Pods-catch_geometryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B33B6DA43EBCD02B2988F89016F896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC024925318B566D776B8FF0B62E3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB8617BDA261479587077C43B41B841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		748277EFC200FE1FEC5FFB254FAA2DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46B8FFCB0CD3E9C6CBA6203A69D1BB3 /* Pods-catch_geometryTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9472B9DA9AEA21E4766A4195CF1570B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B528CFD244E61113572D8909FAC436 /* Pods-catch_geometryUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4545C12195A11C7C24D2D3B20F5292C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C423D69A5551302A340E1134A18D0AA /* Pods-catch_geometry-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80C25380089B02D91AC2F9E649E3F18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-catch_geometry";
+			target = FC405AECCF6EA8047813B84FF0779404 /* Pods-catch_geometry */;
+			targetProxy = 5116E916412E5603C177BDED72C2585F /* PBXContainerItemProxy */;
+		};
+		E5428930FD469E06B7EF274FCDC6136A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-catch_geometry";
+			target = FC405AECCF6EA8047813B84FF0779404 /* Pods-catch_geometry */;
+			targetProxy = 03F220C9804D2A2FBCD054AFA665ECDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0984B2B6E857AC12F53AEFC2955EBE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31C7235825410ECDD226AE8B2C2AB84 /* Pods-catch_geometryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-catch_geometryUITests/Pods-catch_geometryUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-catch_geometryUITests/Pods-catch_geometryUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		67563C515B0E17B600C586A5C3D323D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017D99B4170D8FE681C861D97737944E /* Pods-catch_geometry.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-catch_geometry/Pods-catch_geometry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-catch_geometry/Pods-catch_geometry.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		849B9AA9351E7E5C750AF4B45A9B7209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8B2E5FD40A9ADB0C7FD9069BA99080 /* Pods-catch_geometryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-catch_geometryTests/Pods-catch_geometryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-catch_geometryTests/Pods-catch_geometryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC64708DB3E161EBDEE34C011F630D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049F134F1D90623160AE27AA7D435204 /* Pods-catch_geometryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-catch_geometryUITests/Pods-catch_geometryUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-catch_geometryUITests/Pods-catch_geometryUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C86013E585BEDD45CFF4478DA4416BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F53B7C06A11A125D0F4D346D72457B8 /* Pods-catch_geometryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-catch_geometryTests/Pods-catch_geometryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-catch_geometryTests/Pods-catch_geometryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF526FA55BFB46A8D09FCFB32EEA28CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E023C66D98E2FB950007D6AC2A32C2 /* Pods-catch_geometry.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-catch_geometry/Pods-catch_geometry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-catch_geometry/Pods-catch_geometry.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0001ACC8810FA998F55F69107A613ADF /* Build configuration list for PBXNativeTarget "Pods-catch_geometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67563C515B0E17B600C586A5C3D323D0 /* Debug */,
+				FF526FA55BFB46A8D09FCFB32EEA28CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B52C414E2D68B084B81F84C6B5024EE8 /* Build configuration list for PBXNativeTarget "Pods-catch_geometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B9AA9351E7E5C750AF4B45A9B7209 /* Debug */,
+				C86013E585BEDD45CFF4478DA4416BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6733C394AECD9E3F651F17E2E1FB3B /* Build configuration list for PBXNativeTarget "Pods-catch_geometryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC64708DB3E161EBDEE34C011F630D52 /* Debug */,
+				0984B2B6E857AC12F53AEFC2955EBE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_catch_geometryUITests {
+  umbrella header "Pods-catch_geometryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
