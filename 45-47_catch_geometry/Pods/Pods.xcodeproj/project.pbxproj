@@ -37,12 +37,12 @@
 
 /* Begin PBXFileReference section */
 		017D99B4170D8FE681C861D97737944E /* Pods-catch_geometry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometry.debug.xcconfig"; sourceTree = "<group>"; };
-		02F444226D0180AE38D23C1D94ADA1D5 /* Pods_catch_geometryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_catch_geometryTests.framework; path = "Pods-catch_geometryTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F444226D0180AE38D23C1D94ADA1D5 /* Pods_catch_geometryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_catch_geometryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		049F134F1D90623160AE27AA7D435204 /* Pods-catch_geometryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		093E6AA97587CE0389B08238E6D250A6 /* Pods-catch_geometry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-catch_geometry-dummy.m"; sourceTree = "<group>"; };
 		1B50C90EBFBC0A2D8B3A52AC218E794C /* Pods-catch_geometryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometryTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		21F6532FD2BC3A2181BE9710FD6995E6 /* Pods-catch_geometry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-catch_geometry-umbrella.h"; sourceTree = "<group>"; };
-		2F6D6FB6A63B11D599AB919B55AB68E8 /* Pods_catch_geometryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_catch_geometryUITests.framework; path = "Pods-catch_geometryUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6D6FB6A63B11D599AB919B55AB68E8 /* Pods_catch_geometryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_catch_geometryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C8B2E5FD40A9ADB0C7FD9069BA99080 /* Pods-catch_geometryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		438DA45EEC91B9751069B4A5E0FC70F2 /* Pods-catch_geometryUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-catch_geometryUITests-dummy.m"; sourceTree = "<group>"; };
@@ -56,10 +56,10 @@
 		7547A85594C9615B45FBF7C32C47E6B1 /* Pods-catch_geometry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-catch_geometry-acknowledgements.markdown"; sourceTree = "<group>"; };
 		87F757D9F9A5A4807726CE9F4BB222EC /* Pods-catch_geometryTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometryTests-Info.plist"; sourceTree = "<group>"; };
 		922B05A5E5C0D041D6685B05ED194AC9 /* Pods-catch_geometryUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometryUITests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A31C7235825410ECDD226AE8B2C2AB84 /* Pods-catch_geometryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-catch_geometryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C0F80AC2353B366B6AE3FB63E4A9BCBD /* Pods-catch_geometry-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometry-acknowledgements.plist"; sourceTree = "<group>"; };
-		CCE4F40E03599C8F3503B641EFACC18F /* Pods_catch_geometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_catch_geometry.framework; path = "Pods-catch_geometry.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE4F40E03599C8F3503B641EFACC18F /* Pods_catch_geometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_catch_geometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F1A92A7A0BBEC95D10F13C567F4B8A /* Pods-catch_geometry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-catch_geometry.modulemap"; sourceTree = "<group>"; };
 		E0E540036F489117196A5D2B42A86913 /* Pods-catch_geometryUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-catch_geometryUITests-umbrella.h"; sourceTree = "<group>"; };
 		EB07DC922566C79ACD28453FC5674B9E /* Pods-catch_geometryUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-catch_geometryUITests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -290,6 +290,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 3EAEF1A6B2815DE2495109EAC9B068FB /* Products */;

@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2798E7C6241EA4EE00A4A611 /* Big Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 2798E7C4241EA4EE00A4A611 /* Big Explode.scnp */; };
+		2798E7C7241EA4EE00A4A611 /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 2798E7C5241EA4EE00A4A611 /* Explode.scnp */; };
+		2798E7C9241EA55300A4A611 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2798E7C8241EA55300A4A611 /* spark.png */; };
+		279C17D724200C0C003BE675 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279C17D624200C0C003BE675 /* Structures.swift */; };
 		27E6509324188AA30035C4B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6509224188AA30035C4B5 /* AppDelegate.swift */; };
 		27E6509524188AA30035C4B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6509424188AA30035C4B5 /* SceneDelegate.swift */; };
-		27E6509724188AA30035C4B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6509624188AA30035C4B5 /* ViewController.swift */; };
+		27E6509724188AA30035C4B5 /* CatchGeometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6509624188AA30035C4B5 /* CatchGeometryViewController.swift */; };
 		27E6509A24188AA30035C4B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E6509824188AA30035C4B5 /* Main.storyboard */; };
 		27E6509D24188AA30035C4B5 /* catch_geometry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27E6509B24188AA30035C4B5 /* catch_geometry.xcdatamodeld */; };
 		27E6509F24188AAB0035C4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E6509E24188AAB0035C4B5 /* Assets.xcassets */; };
@@ -40,10 +44,14 @@
 
 /* Begin PBXFileReference section */
 		1219B759245A058695B9B28E /* Pods-catch_geometryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-catch_geometryUITests.release.xcconfig"; path = "Target Support Files/Pods-catch_geometryUITests/Pods-catch_geometryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2798E7C4241EA4EE00A4A611 /* Big Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = "Big Explode.scnp"; sourceTree = "<group>"; };
+		2798E7C5241EA4EE00A4A611 /* Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explode.scnp; sourceTree = "<group>"; };
+		2798E7C8241EA55300A4A611 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		279C17D624200C0C003BE675 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		27E6508F24188AA30035C4B5 /* catch_geometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catch_geometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E6509224188AA30035C4B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E6509424188AA30035C4B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27E6509624188AA30035C4B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27E6509624188AA30035C4B5 /* CatchGeometryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchGeometryViewController.swift; sourceTree = "<group>"; };
 		27E6509924188AA30035C4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27E6509C24188AA30035C4B5 /* catch_geometry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = catch_geometry.xcdatamodel; sourceTree = "<group>"; };
 		27E6509E24188AAB0035C4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2798E7C3241EA4C400A4A611 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2798E7C4241EA4EE00A4A611 /* Big Explode.scnp */,
+				2798E7C5241EA4EE00A4A611 /* Explode.scnp */,
+				2798E7C8241EA55300A4A611 /* spark.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		27E6508624188AA30035C4B5 = {
 			isa = PBXGroup;
 			children = (
@@ -120,10 +138,12 @@
 			children = (
 				27E6509224188AA30035C4B5 /* AppDelegate.swift */,
 				27E6509424188AA30035C4B5 /* SceneDelegate.swift */,
-				27E6509624188AA30035C4B5 /* ViewController.swift */,
 				27E6509824188AA30035C4B5 /* Main.storyboard */,
-				27E6509E24188AAB0035C4B5 /* Assets.xcassets */,
 				27E650A024188AAB0035C4B5 /* LaunchScreen.storyboard */,
+				27E6509624188AA30035C4B5 /* CatchGeometryViewController.swift */,
+				279C17D624200C0C003BE675 /* Structures.swift */,
+				2798E7C3241EA4C400A4A611 /* Resources */,
+				27E6509E24188AAB0035C4B5 /* Assets.xcassets */,
 				27E650A324188AAB0035C4B5 /* Info.plist */,
 				27E6509B24188AA30035C4B5 /* catch_geometry.xcdatamodeld */,
 			);
@@ -158,7 +178,6 @@
 				9ED13C2AE08E4848A9BCF8FA /* Pods-catch_geometryUITests.debug.xcconfig */,
 				1219B759245A058695B9B28E /* Pods-catch_geometryUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -280,6 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E650A224188AAB0035C4B5 /* LaunchScreen.storyboard in Resources */,
+				2798E7C9241EA55300A4A611 /* spark.png in Resources */,
+				2798E7C7241EA4EE00A4A611 /* Explode.scnp in Resources */,
+				2798E7C6241EA4EE00A4A611 /* Big Explode.scnp in Resources */,
 				27E6509F24188AAB0035C4B5 /* Assets.xcassets in Resources */,
 				27E6509A24188AA30035C4B5 /* Main.storyboard in Resources */,
 			);
@@ -375,7 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E6509724188AA30035C4B5 /* ViewController.swift in Sources */,
+				279C17D724200C0C003BE675 /* Structures.swift in Sources */,
+				27E6509724188AA30035C4B5 /* CatchGeometryViewController.swift in Sources */,
 				27E6509D24188AA30035C4B5 /* catch_geometry.xcdatamodeld in Sources */,
 				27E6509324188AA30035C4B5 /* AppDelegate.swift in Sources */,
 				27E6509524188AA30035C4B5 /* SceneDelegate.swift in Sources */,

@@ -1,24 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Catch Geometry View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CatchGeometryViewController" customModule="catch_geometry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jni-QT-pu6">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                            </sceneKitView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tg0-b1-uLg">
+                                <rect key="frame" x="60" y="333" width="128" height="60"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9fc-vg-YB8">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFo-cY-0Xz">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="60"/>
+                                            <state key="normal" title="+ Shape +"/>
+                                            <connections>
+                                                <action selector="changeShapeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8yK-60-2eg"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="nFo-cY-0Xz" firstAttribute="leading" secondItem="9fc-vg-YB8" secondAttribute="leading" id="K45-rl-bjU"/>
+                                        <constraint firstAttribute="bottom" secondItem="nFo-cY-0Xz" secondAttribute="bottom" id="L2S-N8-qq9"/>
+                                        <constraint firstAttribute="trailing" secondItem="nFo-cY-0Xz" secondAttribute="trailing" id="f5l-XN-J6s"/>
+                                        <constraint firstItem="nFo-cY-0Xz" firstAttribute="top" secondItem="9fc-vg-YB8" secondAttribute="top" id="q5b-3t-N3c"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="HOo-Zh-okv"/>
+                                    <constraint firstAttribute="height" constant="60" id="OAr-3x-m1c"/>
+                                </constraints>
+                                <blurEffect style="regular"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YR3-ZE-Mvw">
+                                <rect key="frame" x="708" y="333" width="128" height="60"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4P2-I7-cVZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eY3-q7-yUP">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="60"/>
+                                            <state key="normal" title="+ Color +"/>
+                                            <connections>
+                                                <action selector="changeColorButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z11-up-l7x"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="eY3-q7-yUP" secondAttribute="trailing" id="2sa-jN-uol"/>
+                                        <constraint firstItem="eY3-q7-yUP" firstAttribute="leading" secondItem="4P2-I7-cVZ" secondAttribute="leading" id="cJe-e9-FZ3"/>
+                                        <constraint firstItem="eY3-q7-yUP" firstAttribute="top" secondItem="4P2-I7-cVZ" secondAttribute="top" id="gqQ-kj-eI8"/>
+                                        <constraint firstAttribute="bottom" secondItem="eY3-q7-yUP" secondAttribute="bottom" id="ybc-R5-Ns7"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="h0j-3A-6Du"/>
+                                    <constraint firstAttribute="width" constant="128" id="qBz-MI-aVA"/>
+                                </constraints>
+                                <blurEffect style="regular"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4f-bY-Kx4">
+                                <rect key="frame" x="418" y="16" width="60" height="60"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="p2A-hg-Pyb">
+                                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oBH-Mg-Qod">
+                                            <rect key="frame" x="0.0" y="0.5" width="60" height="59"/>
+                                            <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="oBH-Mg-Qod" firstAttribute="leading" secondItem="p2A-hg-Pyb" secondAttribute="leading" id="5sj-X0-RcK"/>
+                                        <constraint firstAttribute="bottom" secondItem="oBH-Mg-Qod" secondAttribute="bottom" id="EYi-7Y-PvQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="oBH-Mg-Qod" secondAttribute="trailing" id="HXN-sq-Xhc"/>
+                                        <constraint firstItem="oBH-Mg-Qod" firstAttribute="top" secondItem="p2A-hg-Pyb" secondAttribute="top" id="Rzk-mM-mdD"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="X6b-aw-fvR"/>
+                                    <constraint firstAttribute="width" constant="60" id="zlV-Ch-ubD"/>
+                                </constraints>
+                                <blurEffect style="regular"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4B6-Id-eTU">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4B6-Id-eTU" secondAttribute="trailing" id="8yw-3Z-9Og"/>
+                            <constraint firstItem="Tg0-b1-uLg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CE8-B9-AYm"/>
+                            <constraint firstItem="4B6-Id-eTU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Jnf-4w-wS5"/>
+                            <constraint firstItem="YR3-ZE-Mvw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Kko-ET-Pbu"/>
+                            <constraint firstItem="Jni-QT-pu6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TQk-PW-a0L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YR3-ZE-Mvw" secondAttribute="trailing" constant="16" id="U7Q-tJ-Tdw"/>
+                            <constraint firstAttribute="bottom" secondItem="4B6-Id-eTU" secondAttribute="bottom" id="WRJ-c4-L8T"/>
+                            <constraint firstItem="Jni-QT-pu6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XOR-0y-CJ4"/>
+                            <constraint firstItem="4B6-Id-eTU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gMV-ww-Gjt"/>
+                            <constraint firstItem="c4f-bY-Kx4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="rqk-UG-HZd"/>
+                            <constraint firstItem="Tg0-b1-uLg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tv2-Rq-f2c"/>
+                            <constraint firstItem="c4f-bY-Kx4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vaY-9X-hRP"/>
+                            <constraint firstAttribute="bottom" secondItem="Jni-QT-pu6" secondAttribute="bottom" id="xX4-o0-Vec"/>
+                            <constraint firstAttribute="trailing" secondItem="Jni-QT-pu6" secondAttribute="trailing" id="yd6-Fb-Ghg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="geometryIndicatorImageView" destination="oBH-Mg-Qod" id="g8g-bl-OOP"/>
+                        <outlet property="scnView" destination="Jni-QT-pu6" id="PtZ-5N-wJ7"/>
+                        <outlet property="warningView" destination="4B6-Id-eTU" id="RSS-C3-yTt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="138.61607142857142" y="137.68115942028987"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="circle" catalog="system" width="64" height="60"/>
+    </resources>
 </document>
