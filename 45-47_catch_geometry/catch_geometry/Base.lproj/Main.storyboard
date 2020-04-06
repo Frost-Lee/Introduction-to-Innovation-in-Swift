@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,11 +15,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jni-QT-pu6">
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GTM-A4-UEd">
                                 <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                            </sceneKitView>
+                            </arscnView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tg0-b1-uLg">
-                                <rect key="frame" x="60" y="333" width="128" height="60"/>
+                                <rect key="frame" x="60" y="330" width="128" height="60"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9fc-vg-YB8">
                                     <rect key="frame" x="0.0" y="0.0" width="128" height="60"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
                                 </userDefinedRuntimeAttributes>
                             </visualEffectView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YR3-ZE-Mvw">
-                                <rect key="frame" x="708" y="333" width="128" height="60"/>
+                                <rect key="frame" x="708" y="330" width="128" height="60"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4P2-I7-cVZ">
                                     <rect key="frame" x="0.0" y="0.0" width="128" height="60"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,23 +124,23 @@
                             <constraint firstAttribute="trailing" secondItem="4B6-Id-eTU" secondAttribute="trailing" id="8yw-3Z-9Og"/>
                             <constraint firstItem="Tg0-b1-uLg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CE8-B9-AYm"/>
                             <constraint firstItem="4B6-Id-eTU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Jnf-4w-wS5"/>
-                            <constraint firstItem="YR3-ZE-Mvw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Kko-ET-Pbu"/>
-                            <constraint firstItem="Jni-QT-pu6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TQk-PW-a0L"/>
+                            <constraint firstItem="YR3-ZE-Mvw" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-24" id="Kko-ET-Pbu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YR3-ZE-Mvw" secondAttribute="trailing" constant="16" id="U7Q-tJ-Tdw"/>
                             <constraint firstAttribute="bottom" secondItem="4B6-Id-eTU" secondAttribute="bottom" id="WRJ-c4-L8T"/>
-                            <constraint firstItem="Jni-QT-pu6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XOR-0y-CJ4"/>
+                            <constraint firstAttribute="bottom" secondItem="GTM-A4-UEd" secondAttribute="bottom" id="bc0-rn-q4d"/>
+                            <constraint firstItem="GTM-A4-UEd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="e2s-BP-t2Z"/>
                             <constraint firstItem="4B6-Id-eTU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gMV-ww-Gjt"/>
+                            <constraint firstAttribute="trailing" secondItem="GTM-A4-UEd" secondAttribute="trailing" id="lEN-gV-p0M"/>
                             <constraint firstItem="c4f-bY-Kx4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="rqk-UG-HZd"/>
-                            <constraint firstItem="Tg0-b1-uLg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tv2-Rq-f2c"/>
+                            <constraint firstItem="Tg0-b1-uLg" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-24" id="tv2-Rq-f2c"/>
                             <constraint firstItem="c4f-bY-Kx4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vaY-9X-hRP"/>
-                            <constraint firstAttribute="bottom" secondItem="Jni-QT-pu6" secondAttribute="bottom" id="xX4-o0-Vec"/>
-                            <constraint firstAttribute="trailing" secondItem="Jni-QT-pu6" secondAttribute="trailing" id="yd6-Fb-Ghg"/>
+                            <constraint firstItem="GTM-A4-UEd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="z9n-Y3-rHz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="arscnView" destination="GTM-A4-UEd" id="bZC-U0-hzH"/>
                         <outlet property="geometryIndicatorImageView" destination="oBH-Mg-Qod" id="g8g-bl-OOP"/>
-                        <outlet property="scnView" destination="Jni-QT-pu6" id="PtZ-5N-wJ7"/>
                         <outlet property="warningView" destination="4B6-Id-eTU" id="RSS-C3-yTt"/>
                     </connections>
                 </viewController>
@@ -150,6 +150,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="circle" catalog="system" width="64" height="60"/>
+        <image name="circle" catalog="system" width="128" height="121"/>
     </resources>
 </document>
